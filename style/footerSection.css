@@ -1,0 +1,103 @@
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<footerSection>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.footerSection{
+    background-color: #303030;
+    border-bottom: 1px solid #000000;
+}
+.footerSectionDiv{
+    max-width: 960px;
+    margin: auto;
+    padding:40px 0 42px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footerDiv1,.footerDiv2,.footerDiv3,.footerDiv4{
+    box-sizing: border-box;
+    width: 225px;
+}
+h2{
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    padding-bottom: 34px;
+}
+.pBlog1{
+    font-size: 13px;
+    color: #76c38f;
+    padding-bottom: 17px;
+}
+.pBlog2, .pBlog3{
+    font-size: 10px;
+}
+.pBlog2{
+    color: #666666;
+    padding-bottom: 14px;
+}
+.pBlog2 span{
+    color: #76c38e;
+}
+.pBlog3{
+    color: #979797;
+    padding-bottom: 17px;
+}
+.pBlog4{
+    font-size: 13px;
+    color: #979797;
+    padding-bottom: 18px;
+    line-height: 20px;
+}
+.footerDiv1 a{
+    font-size: 13px;
+    color: #76c38f;
+    text-decoration: none;
+}
+.footerDiv2 a{
+    font-size: 13px;
+    color: #76c38f;
+    display: block;
+    padding: 13px 0 9px;
+    border-bottom: 2px solid #404040;
+    text-decoration: none;
+}
+.footerSectionDiv .footerDiv2 .linksTop{
+    padding-top: 0;
+}
+.footerDiv3 p{
+    font-size: 13px;
+    color: #979797;
+    margin-bottom: 29px;
+    line-height: 19px;
+}
+.footerDiv3 p span{
+    color: #76c38e;
+}
+input[type=text]{
+    width: 220px;
+    background-color: #222222;
+    border: none;
+    border-radius: 10px;
+    font-size: 13px;
+    padding: 11px 0 11px 8px;
+    margin-bottom: 10px;
+}
+#inputMessage{
+    padding-bottom: 45px;
+}
+input[type=submit]{
+    width: 76px;
+    height: 36px;
+    font-size: 12px;
+    color: #303030;
+    background-color: #76c38f;
+    border: none;
+    border-radius: 10px;
+}
+/* ((((((((((((((((((((((((((((((((((((((((((((((((((((@media)))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))) */
+@media (max-width: 900px) {
+    .footerDiv1, .footerDiv3{
+        display: none;
+    }
+    .footerSectionDiv{
+        justify-content: space-around;
+    }
+}
